@@ -1,8 +1,6 @@
-My personal Vim config
-======================
+# My personal Vim config
 
-Usage:
------
+## Usage:
 
 1. git clone the repository somewhere, and symlink ~/.vim to it
     git clone git@github.com:aknapp/vim-config.git ~/code/vim-config
