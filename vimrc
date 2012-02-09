@@ -42,3 +42,8 @@ au BufRead,BufNewFile *.rb setfiletype ruby
 au BufRead,BufNewFile *.erb setfiletype ruby
 au FileType ruby set ts=2 sw=2 sts=2 et list
 au FileType ruby syn on
+
+" markdown (md) files
+au BufRead,BufNewFile *.py setfiletype markdown
+au FileType markdown set ts=4 sw=4 sts=4 et list
+au FileType markdown syn on
