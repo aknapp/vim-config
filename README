@@ -1,1 +1,3 @@
-My .vimrc directory
+My personal vim config.
+
+All I need to do it make it work is git clone this into ~/.vim, and then symlink ~/.vimrc to ~/.vim/vimrc.
