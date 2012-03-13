@@ -43,6 +43,16 @@ au BufRead,BufNewFile *.erb setfiletype ruby
 au FileType ruby set ts=2 sw=2 sts=2 et list
 au FileType ruby syn on
 
+" css files
+au BufRead,BufNewFile *.css setfiletype css
+au FileType css set ts=2 sw=2 sts=2 et list
+au FileType css syn on
+
+" js files
+au BufRead,BufNewFile *.js setfiletype js
+au FileType js set ts=2 sw=2 sts=2 et list
+au FileType js syn on
+
 " markdown (md) files
 au BufRead,BufNewFile *.md setfiletype markdown
 au BufRead,BufNewFile *.markdown setfiletype markdown
