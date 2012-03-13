@@ -53,6 +53,12 @@ au BufRead,BufNewFile *.js setfiletype js
 au FileType js set ts=2 sw=2 sts=2 et list
 au FileType js syn on
 
+" html files
+au BufRead,BufNewFile *.html setfiletype html
+au BufRead,BufNewFile *.htm setfiletype html
+au FileType html set ts=2 sw=2 sts=2 et list
+au FileType html syn on
+
 " markdown (md) files
 au BufRead,BufNewFile *.md setfiletype markdown
 au BufRead,BufNewFile *.markdown setfiletype markdown
