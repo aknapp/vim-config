@@ -21,6 +21,16 @@ set statusline+=%{fugitive#statusline()} "  Git Hotness
 set statusline+=\ [%{getcwd()}]          " current dir
 set statusline+=\ [%p%%] " Options
 
+" testing out turning off arrow keys
+inoremap  <Up>     <NOP>
+inoremap  <Down>   <NOP>
+inoremap  <Left>   <NOP>
+inoremap  <Right>  <NOP>
+noremap   <Up>     <NOP>
+noremap   <Down>   <NOP>
+noremap   <Left>   <NOP>
+noremap   <Right>  <NOP>
+
 " puppet files
 au BufRead,BufNewFile *.pp setfiletype puppet
 au FileType puppet set ts=2 sw=2 sts=2 et list
